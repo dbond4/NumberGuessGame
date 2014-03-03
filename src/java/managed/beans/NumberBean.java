@@ -44,7 +44,7 @@ public class NumberBean implements Serializable{
       else 
           hint = messageService.guessLargerNumber();
     }
-    return hint;
+    return null;
   }
 
     public int getNumber() {

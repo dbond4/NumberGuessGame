@@ -6,11 +6,13 @@
 
 package service;
 
+import java.io.Serializable;
+
 /**
  *
  * @author F03 H4MM3R
  */
-public class MessageService {
+public class MessageService implements Serializable{
     
     public String guessSmallerNumber(){
         return "Guess a smaller number";
